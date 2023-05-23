@@ -6,6 +6,10 @@
     font-family: vazir;
 }
 
+html,body{
+    scroll-behavior:smooth ;
+}
+
 .navbar-nav .nav-item{
     transition: all 0.3s;
     border-radius: 10px;
@@ -49,6 +53,10 @@ header#header{
 
 .item-bottom-img{
     position: relative;
+}
+
+.new-item-img{
+    max-height: 350px;
 }
 
 .link-new-items{
