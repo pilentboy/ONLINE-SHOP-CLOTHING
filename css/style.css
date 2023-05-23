@@ -133,3 +133,33 @@ header#header{
 
 
 
+#free-item {
+    height: 100%;
+
+}
+#free-item #free-item-img{
+    width: 200px;
+    height: 200px;
+}
+
+#free-item-text{
+    top: 0;
+    left: 20%;
+    width: 60%;
+    height: 80%;
+    background-color: black;
+}
+
+#special-item .row{
+   height: 100%;
+}
+
+#special-item{
+   height: 100%;
+}
+
+@media only screen and (max-width:720px) {
+    #support .row{
+        align-items: center !important;
+    }
+}
