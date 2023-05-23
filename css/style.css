@@ -37,12 +37,32 @@ html,body{
 @media only screen and (max-width:992px){
     header#header{
         background-color:#fff !important;
+        right: 0 !important;
+        
     }
   
 }
+@media only screen and (max-width:670px){
+    #home{
+        width: 100% !important;
+        right: 0 !important;
+    }
+
+    #support form .row {
+        align-items: center;
+    }
+
+}
+
+
+
+#home{
+    right: 10%;
+}
 
 header#header{
-    background-color: rgb(23, 23, 23);
+    background-color: black;
+    padding-top: 80px;
 }
 .item-img{
     transition: all 0.4s;
@@ -155,11 +175,3 @@ header#header{
 }
 
 
-
-#header{
-    margin-top: 80px;
-}
-
-#home{
-    right: 21%;
-}
