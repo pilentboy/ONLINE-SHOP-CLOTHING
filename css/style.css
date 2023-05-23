@@ -150,16 +150,16 @@ header#header{
     background-color: black;
 }
 
-#special-item .row{
+#special-item .row , #special-item{ 
    height: 100%;
 }
 
-#special-item{
-   height: 100%;
+
+
+#header{
+    margin-top: 80px;
 }
 
-@media only screen and (max-width:720px) {
-    #support .row{
-        align-items: center !important;
-    }
+#home{
+    right: 21%;
 }
