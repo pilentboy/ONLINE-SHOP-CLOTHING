@@ -1,0 +1,8 @@
+.product{
+    min-height: 500px;
+    margin-top:var(--spaceTop);
+}
+
+.product .row{
+    min-height: 500px !important;
+}
