@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 	
     <link rel="stylesheet" href="./css/style.css">
-    
+    <link rel="stylesheet" href="./css/login-form.css.css">
 </head>
 <body>
 
@@ -49,7 +49,26 @@
     </nav>
 
 
+    <div id="container" class="container ">
+           
+            <span id="signUp-title" class="FS2 BTN">ثبت نام </span>
+            <form action="#" id="signUpForm" class="formStyle">
+                    <input type="text" id="userName" placeholder="نام کاربری">
+                    <input type="email" id="email" placeholder="ایمیل">
+                    <input type="password" id="password" placeholder="رمز">
+                    <button type="submit" id="signUpBTN" class="btn btn-primary"> ثبت نام</button>
+            </form>
+            
+            <div id="loginBox" class="formStyle" >
+                <span id="login-title" class="FS1 BTN text-dark"> ورود</span>
+                <form action="#" id="loginForm" >
+                    <input type="email" id="email" placeholder="ایمیل">
+                    <input type="password" id="password" placeholder="رمز">
+                    <button type="submit" id="logInBTN" class="btn btn-primary"> ورود</button>
+                </form>
 
+            </div>
+    </div>
     
 
     
@@ -79,6 +98,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
     <script src="/script/app.js"></script>
-
+    <script src="./script/login-signup.js.js"></script>
 </body>
 </html>
