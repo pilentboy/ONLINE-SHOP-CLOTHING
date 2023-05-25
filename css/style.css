@@ -33,10 +33,14 @@ html,body{
     transform: scale(1.1);
 }
 
+
 #help-buying:hover{
     font-weight: bold;
 }
 
+.login-signup{
+    font-size: 1.3rem;
+}
 
 @media only screen and (max-width:992px){
     header#header{
@@ -69,12 +73,13 @@ header#header{
     padding-top:var(--spaceTop)
 }
 
-.item-img{
+.item-img,.login-signup{
     transition: all 0.4s;
 }
-.item-img:hover{
+.item-img:hover,.login-signup:hover{
     transform: scale(1.1);
 }
+
 
 .item-bottom-img{
     position: relative;
